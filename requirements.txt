@@ -1,0 +1,8 @@
+# Core (works on a PC and on hosted servers such as Streamlit Community Cloud / Docker)
+# Python 3.9 - 3.12 required (MediaPipe 0.10.14 wheels). Newer MediaPipe removed the 'solutions' API this app uses.
+# NOTE: mediapipe installs opencv-contrib-python, which provides `cv2` - do not install another OpenCV.
+streamlit>=1.36
+mediapipe==0.10.14
+numpy>=1.24,<2.0
+pandas>=1.5
+imageio-ffmpeg>=0.4.9

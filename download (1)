@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.venv/
+pro_videos/*.mp4
+pro_videos/*.mov

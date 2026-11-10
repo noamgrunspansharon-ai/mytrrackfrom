@@ -1,0 +1,4 @@
+# Extra packages for running on YOUR computer (voice cues + millisecond-accurate beep timing)
+-r requirements.txt
+pyttsx3>=2.90
+sounddevice>=0.4.6
